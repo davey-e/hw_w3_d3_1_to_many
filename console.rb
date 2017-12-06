@@ -12,7 +12,10 @@ album1 = Album.new({
   'artist_id' => artist1.id
   })
 
-  album1.save()
+album1.save()
+
+artists = Artist.list_all()
+
 
 binding.pry
 nil
