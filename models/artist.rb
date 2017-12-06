@@ -27,7 +27,7 @@ class Artist
   end
 
   def list_artist_albums()
-    sql = "SELECT * FROM ALBUMS
+    sql = "SELECT * FROM albums
     WHERE artist_id = $1"
     values = [@id]
     results = SqlRunner.run(sql, values)

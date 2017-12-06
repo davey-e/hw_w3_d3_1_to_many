@@ -35,6 +35,8 @@ albums = Album.list_all()
 
 artist_albums = artist1.list_artist_albums()
 
+album_artist = album1.list_album_artist()
+
 
 binding.pry
 nil
