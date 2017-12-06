@@ -40,6 +40,9 @@ album_artist = album1.list_album_artist()
 artist1.name = 'Symbol'
 artist1.update()
 
+album1.genre = 'Pop'
+album1.update()
+
 
 binding.pry
 nil
