@@ -16,6 +16,8 @@ album1.save()
 
 artists = Artist.list_all()
 
+albums = Album.list_all()
+
 
 binding.pry
 nil
